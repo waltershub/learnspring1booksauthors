@@ -25,6 +25,7 @@ public class Book {
     public Book() {
     }
 
+
     public Book(String title, String isbn ,Publisher publisher) {
         this.title = title;
         this.isbn = isbn;
@@ -45,6 +46,7 @@ public class Book {
     public void setId(Long id) {
         this.id = id;
     }
+
 
     public String getTitle() {
         return title;
